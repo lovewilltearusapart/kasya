@@ -44,7 +44,7 @@ var Lock = function () {
 				this.dom.lock.classList.add('verified');
 				this.dom.status.textContent = 'UNLOCKED';
 				this.sounds.success.play();
-				window.location="honeycassiopeia.netlify.app";
+				window.location="https://honeycassiopeia.netlify.app/";
 			} else {
 				this.dom.lock.classList.remove('verified');
 				this.dom.status.textContent = 'LOCKED';
