@@ -1,0 +1,25 @@
+
+:root {
+	--color1-1: #203340; 
+	--color1-2: #40505B; 
+	--color1-3: #242D33; 
+	
+	--color2-1: #F2F4F5; 
+	--color2-2: #203340; 
+	--color2-3: #11111D; 
+
+	--color3-1: Gold ; 
+	--color3-2: Coral ; 
+	--color3-3: IndianRed; 
+	--color3-2: Azure ; 
+	
+	--color4-1: #87ceeb; 
+	--color4-2: Linen; 
+	--color4-3: deepskyblue; 
+
+	--color5-1: Tomato; 
+	--color5-2: SteelBlue; 
+	--color5-3: OrangeRed; 
+			--color-sh-1: rgba(255, 255, 255, 0.1); 
+			--color-sh-2: rgba(0, 0, 0, 0.1); 
+}

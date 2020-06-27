@@ -1,0 +1,60 @@
+
+
+
+body {
+	background: #3b3d65;
+}
+
+h2 {
+	color: var(--color2-1);
+	font-family: monospace;
+	text-align: center;
+}
+
+.background {
+	table-layout: fixed;
+	border-spacing: 0;
+}
+
+.background td {
+	padding: 0;
+}
+
+.lava, .actor {
+	background: var(--color5-1);
+}
+
+.wall {
+	border: solid 3px;
+	background: var(--color-sh-1);
+	border-color: var(--color-sh-2);
+	
+	box-sizing: content-box;
+}
+
+.actor {
+	position: absolute;
+}
+
+.coin {
+	border-radius: 50%;
+	background: var(--color3-1);
+}
+
+.player {
+	box-shadow: none;
+	background: var(--color5-2);
+}
+
+.lost .player {
+	background: var(--color5-3);
+}
+
+.won .player {
+	background: var(--green1-1);
+}
+
+.game {
+	position: relative;
+	overflow: hidden;
+}

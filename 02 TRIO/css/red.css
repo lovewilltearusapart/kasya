@@ -1,0 +1,146 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: var(--color2-1);
+	text-align: center;
+	background: var(--color1-1);
+}
+
+body {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	border: solid 1px;
+	margin-top:5%;
+
+	border: solid 1px var(--color2-3);
+background: var(--color1-2);
+
+-webkit-box-shadow: 2px 6px 300px -56px rgba(255,255,255,0.49);
+-moz-box-shadow: 2px 6px 300px -56px rgba(255,255,255,0.49);
+box-shadow: 2px 6px 300px -56px rgba(255,255,255,0.49);
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 2rem 0;
+	letter-spacing: 10px;
+}
+h1 span {
+	color: var(--color5-1);
+}
+
+.container {
+	-webkit-perspective: 1000px;
+	perspective: 1000px;
+	text-align: center;
+	margin: 0 0 2rem;
+	min-height: 50vh;
+	position: relative;
+}
+.container:after {
+	-webkit-transition: 0.5s transform;
+	-webkit-transition: 0.5s -webkit-transform;
+	transition: 0.5s -webkit-transform;
+	transition: 0.5s transform;
+	transition: 0.5s transform, 0.5s -webkit-transform;
+	-webkit-transform: rotate(-900deg) scale(0);
+	transform: rotate(-900deg) scale(0);
+	content: "[code:LEPRARED]";
+	position: absolute;
+	width: 50%;
+margin-left: -15rem
+	margin-top:2%;
+	font-size: 3rem;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 8px;
+	text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.container.solved:after {
+	-webkit-transform: rotate(-18deg) scale(1);
+	transform: rotate(0deg) scale(1);
+}
+
+.box {
+	-webkit-transition: 0.5s transform;
+	-webkit-transition: 0.5s -webkit-transform;
+	transition: 0.5s -webkit-transform;
+	transition: 0.5s transform;
+	transition: 0.5s transform, 0.5s -webkit-transform;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	display: inline-block;
+	width: 4rem;
+	height: 4rem;
+	margin: 5px;
+	border-radius: 4px;
+	position: relative;
+}
+.box:not(.disabled) {
+	cursor: pointer;
+}
+.box:before, .box:after {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	content: "";
+	border-radius: 4px;
+	height: inherit;
+	width: inherit;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box:hover:before {
+	background: rgba(0,0,0,0.4);
+}
+.box:before {
+	background: rgba(0,0,0,0.2);
+	z-index: 2;
+}
+.box:after {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background: var(--color5-1);
+}
+
+.box.active {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.progress-bar {
+	width: 80%;
+	margin: 0 auto;
+	height: 20px;
+	background: rgba(0,0,0,0.2);
+	border-radius: 2px;
+	position: relative;
+	margin-bottom:3%;
+}
+.progress-bar .progress {
+	-webkit-transition: 1s min-width;
+	transition: 1s min-width;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--color5-1);
+	width: 0;
+	min-width: 0;
+	border-radius: 1px;
+	z-index: 20;
+}

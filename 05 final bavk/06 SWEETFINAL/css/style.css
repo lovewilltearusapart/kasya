@@ -1,0 +1,71 @@
+body {
+	background: #222;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAT/GdHE/gP5jMiCYAGQIpggXAAmiCIAEgQAAE4FBbECyZcAAAAASUVORK5CYII=) #222;
+
+}
+
+h2 {
+	color: LAVENDER;
+	font-family: monospace;
+	text-align: center;
+}
+
+.background {
+	table-layout: fixed;
+	border-spacing: 0;
+}
+
+body { 
+background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-471718.jpg); 
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.background td {
+	padding: 0;
+}
+
+.lava, .actor {
+	background: #f1763cb8;
+}
+
+.wall {
+	background: #324bc56b;
+	border: solid 1px #ffffff21;
+	box-sizing: content-box;
+}
+
+
+.wall2 {
+	background: #444;
+	border: solid 3px #333;
+	box-sizing: content-box;
+}
+
+.actor {
+	position: absolute;
+}
+
+.coin {
+	background: #e2e838;
+	border-radius: 50%;
+}
+
+.player {
+	background: #335699;
+	box-shadow: none;
+}
+
+.lost .player {
+	background: #a04040;
+}
+
+.won .player {
+	background: PALEVIOLETRED;
+}
+
+.game {
+	position: relative;
+	overflow: hidden;
+}
