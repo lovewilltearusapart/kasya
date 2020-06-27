@@ -6,7 +6,7 @@ var Lock = function () {
 	function Lock() {
 		_classCallCheck(this, Lock);
 
-		this.pin = '2018';
+		this.pin = '2023';
 		this.setupDom();
 		this.setupFlickity();
 		this.setupAudio();
