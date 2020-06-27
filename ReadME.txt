@@ -61,3 +61,9 @@ asdjdjabshl*jqlogjmkrlo*dfpdfojnklc*aklbkjjdklk*lspdpofiejs*kadlvbkbfjt*ekldffks
 2 - В час Z сменить (promotimer) с timer на promo.
 3 - Россыпь 3-4? с различными зашифрованными посланиями.
 ? - (TRIO)
+
+———————————————————————————————————————————————————————————
+
+BLUE - 1337
+GREEN - 99897
+RED - 737
