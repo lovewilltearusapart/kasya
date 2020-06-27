@@ -1,5 +1,5 @@
 const pressed = [];
-const secretCode = 'leprata';
+const secretCode = 'urshak';
 const p = document.querySelector('p');
 const confetti = document.querySelector('.confetti-time');
 
@@ -9,7 +9,7 @@ window.addEventListener('keyup', (e) => {
 	pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
 	if(pressed.join('').includes(secretCode)) {
 	console.log('Correct!');
-		window.location="secretpage.html";
+		window.location="https://youtu.be/ALzUihmRdZo";
 	}
 	console.log(pressed);
 });
