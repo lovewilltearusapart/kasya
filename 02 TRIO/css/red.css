@@ -54,7 +54,7 @@ h1 span {
 	transition: 0.5s transform, 0.5s -webkit-transform;
 	-webkit-transform: rotate(-900deg) scale(0);
 	transform: rotate(-900deg) scale(0);
-	content: "[code:LEPRARED]";
+	content: "[code:737]";
 	position: absolute;
 	width: 50%;
 margin-left: -15rem

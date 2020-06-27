@@ -153,9 +153,9 @@ $(document).ready(function() {
 						$('div span').remove();
 						$('initial-root').remove();
 
-						/* 
+						/*
 						 * List of commands available in the game:
-						 * 
+						 *
 						 * help
 						 * list
 						 * connect nearest-phone-relay
@@ -163,7 +163,7 @@ $(document).ready(function() {
 						 * send adware
 						 * disconnect
 						 * exit
-						 * 
+						 *
 						 */
 
 						switch( $(this).val() ) {
@@ -200,7 +200,7 @@ $(document).ready(function() {
 								break;
 							case 'disconnect':
 								if (connect === 1) {
-									$('#terminal').append('<div>$&nbsp;&nbsp;&nbsp;' + $(this).val() + '<br><p2>Disconnecting...</p2><br><p2>Disconnected</p2><br><p3>[code: LEPRAGREEN]</p2><span id="blinking">_</span></div>');
+									$('#terminal').append('<div>$&nbsp;&nbsp;&nbsp;' + $(this).val() + '<br><p2>Disconnecting...</p2><br><p2>Disconnected</p2><br><p3>[code: 99897]</p2><span id="blinking">_</span></div>');
 									disconnect = 1;
 									connect = 0;
 									minutes = 0;

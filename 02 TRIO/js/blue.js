@@ -173,7 +173,7 @@ function Lava(pos, ch) {
 	else if (ch === '|')
 		this.speed = new Vector(0, 2);
 	else if (ch === 'v'){
-		this.speed = new Vector(0, 3); 		   
+		this.speed = new Vector(0, 3);
 		this.repeatPos = pos;
 	}
 }
@@ -196,7 +196,7 @@ function Level(plan) {
 	this.height = plan.length;
 	this.grid = [];
 	this.actors = [];
-	
+
 	for (var y = 0; y < this.height; y++) {
 		var line = plan[y],  gridLine = [];
 		for (var x = 0; x < this.width; x++) {
@@ -222,7 +222,7 @@ function Level(plan) {
 	}
 	this.player = this.actors.filter(function(actor) {
 		return actor.type === "player"
-	})[0];	
+	})[0];
 	this.status = this.finishDelay = null;
 }
 
@@ -235,7 +235,7 @@ function element(name, className) {
 function DOMDisplay(parent, level) {
 	this.wrap = parent.appendChild(element("div", "game"));
 	this.level = level;
-	
+
 	this.wrap.appendChild(this.drawBackground());
 	this.actorLayer = null;
 	this.drawFrame();
@@ -495,7 +495,7 @@ function runGame(plans, Display) {
       else if (n < plans.length - 1)
         startLevel(n + 1);
       else
-        alert("[code: LEPRABLUE]");
+        alert("[code: 1337]");
     });
   }
   startLevel(0);
